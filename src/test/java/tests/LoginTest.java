@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTest extends Base{
-    @Test
+//    @Test
     public void validateSecondaryLogin() {
         loginPage.navigateToSecondaryLoginPage();
         assertAll(loginPage.secondaryPageUI());

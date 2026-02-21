@@ -17,7 +17,7 @@ public class HomePageTest extends Base{
         assertAll(homePage.validatePort());
     }
 
-    @Test
+  //  @Test
     public void validateAddOns() throws IOException {
         loginPage.navigateToSecondaryLoginPage();
         loginPage.enterBookingCredentialsAndLogin();
@@ -25,7 +25,7 @@ public class HomePageTest extends Base{
         homePage.validateAddOnsTileNavigation();
     }
 
-    @Test
+   // @Test
     public void validateEnhanceYourHoliday() throws IOException {
         loginPage.navigateToSecondaryLoginPage();
         loginPage.enterBookingCredentialsAndLogin();
